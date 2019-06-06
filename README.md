@@ -1,3 +1,3 @@
 # Default Slack's "also send to #channel" to on
 
-![](assets/slack-thread-checkbox.png)
+![](assets/store-screen-1.png)
