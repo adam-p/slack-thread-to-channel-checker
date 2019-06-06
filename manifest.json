@@ -1,0 +1,17 @@
+{
+  "name": "Also Send To Channel Checker",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Defaults Slack's 'also send to channel' thread option to checked",
+  "homepage_url": "https://github.com/adam-p/slack-thread-to-channel-checker",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://*.slack.com/messages/*"],
+      "js": ["js/content.js"]
+    }
+  ]
+}

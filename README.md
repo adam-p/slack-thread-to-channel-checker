@@ -1,1 +1,3 @@
-# slack-thread-to-channel-checker
+# Default Slack's "also send to #channel" to on
+
+![](assets/slack-thread-checkbox.png)
