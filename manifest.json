@@ -10,7 +10,7 @@
   "permissions": [],
   "content_scripts": [
     {
-      "matches": ["https://*.slack.com/messages/*"],
+      "matches": ["https://app.slack.com/client/*"],
       "js": ["js/content.js"]
     }
   ]
