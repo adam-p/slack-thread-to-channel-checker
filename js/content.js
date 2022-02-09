@@ -19,7 +19,7 @@ window.addEventListener('load', (event) => {
 		// multiple "Also send to channel" checkboxes, so we'll use querySelectorAll.
 		// Note that this selector is just reverse-engineered from looking at the DOM. It
 		// might be fragile.
-		const channelSendCheckboxes = document.querySelectorAll('input[class$="broadcast_checkbox"]');
+		const channelSendCheckboxes = document.querySelectorAll('input[data-qa$="_broadcast_checkbox"]');
 
 		for (let i = 0; i < channelSendCheckboxes.length; i++) {
 			if (channelSendCheckboxes[i].checked) {
@@ -42,5 +42,5 @@ window.addEventListener('load', (event) => {
 				channelSendCheckboxes[i].dataset['__realClickListenerAdded'] = true;
 			}
 		}
-	}, 500);
+	}, 1000);
 });
